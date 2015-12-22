@@ -1,0 +1,27 @@
+th.rotate {
+    height: 140px;
+    white-space: nowrap;
+}
+
+th.rotate > div {
+    transform:
+    translate(25px, 51px)
+    rotate(315deg);
+    width: 30px;
+    padding: 0;
+    margin: 0;
+}
+th.rotate > div > span {
+    border-bottom: 1px solid #ccc;
+}
+table.draft-board td{
+    border: 1px solid #ccc;
+}
+td.turn{
+    background: #D5D458;
+}
+img#loading{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
